@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+*{
+    margin: 0;
+    box-sizing: border-box;}
+
+body{font-family:"Lato",sans-serif}
+
+
+h1{ font-weight: 900;
+    font-style: normal;
+  }
+
+h2{font-weight: 700;
+    font-style: normal}
+
+    .image-container {
+        display: flex; 
+        justify-content: space-between; 
+        margin-bottom: 20px;
+    }
+    
+    .image-container img {
+        max-width: calc(100% / 3 - 10px);  
+        margin-right: 10px; 
+        height:100%
+    }
+    
+    .image-container img:last-child {
+        margin-right: 0;
+    }
+
+    p{width:30%}
+
+    a {
+        color: #01164B;
+        border: 1px #2C313F solid;
+        padding: 0.5em 1em;
+        margin:10px}
+
+    footer {
+        background-color: #0a0b0f;
+        height: 200px;
+        width: 100%;
+        margin: 0;
+        }
+      
